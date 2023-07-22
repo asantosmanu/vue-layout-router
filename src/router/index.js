@@ -52,54 +52,54 @@ const router = createRouter({
       component: DicaView5
     },
     {
-      path: '/dica',
-      name: 'dica3',
-      component: DicaView3
+      path: '/dica6',
+      name: 'dica6',
+      component: DicaView6
     },   
     {
-      path: '/dica3',
-      name: 'dica3',
-      component: DicaView3
+      path: '/dica7',
+      name: 'dica7',
+      component: DicaView7
     },   
     {
-      path: '/dica3',
-      name: 'dica3',
-      component: DicaView3
+      path: '/dica8',
+      name: 'dica8',
+      component: DicaView8
     },   
     {
-      path: '/dica3',
-      name: 'dica3',
-      component: DicaView3
+      path: '/dica9',
+      name: 'dica9',
+      component: DicaView9
     },  
     {
-      path: '/dica3',
-      name: 'dica3',
-      component: DicaView3
+      path: '/dica10',
+      name: 'dica10',
+      component: DicaView10
     },  
     {
-      path: '/dica3',
-      name: 'dica3',
-      component: DicaView3
+      path: '/dica11',
+      name: 'dica11',
+      component: DicaView11
     },  
     {
-      path: '/dica3',
-      name: 'dica3',
-      component: DicaView3
+      path: '/dica12',
+      name: 'dica12',
+      component: DicaView12
     },   
     {
-      path: '/dica3',
-      name: 'dica3',
-      component: DicaView3
+      path: '/dica13',
+      name: 'dica13',
+      component: DicaView13
     },   
     {
-      path: '/dica3',
-      name: 'dica3',
-      component: DicaView3
+      path: '/dica14',
+      name: 'dica14',
+      component: DicaView14
     },  
     {
-      path: '/dica3',
-      name: 'dica3',
-      component: DicaView3
+      path: '/dica15',
+      name: 'dica15',
+      component: DicaView15
     },
     
     {
