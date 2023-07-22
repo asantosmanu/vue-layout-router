@@ -41,6 +41,66 @@ const router = createRouter({
       name: 'dica3',
       component: DicaView3
     },
+    {
+      path: '/dica4',
+      name: 'dica4',
+      component: DicaView4
+    },
+      {
+      path: '/dica5',
+      name: 'dica5',
+      component: DicaView5
+    },
+    {
+      path: '/dica',
+      name: 'dica3',
+      component: DicaView3
+    },   
+    {
+      path: '/dica3',
+      name: 'dica3',
+      component: DicaView3
+    },   
+    {
+      path: '/dica3',
+      name: 'dica3',
+      component: DicaView3
+    },   
+    {
+      path: '/dica3',
+      name: 'dica3',
+      component: DicaView3
+    },  
+    {
+      path: '/dica3',
+      name: 'dica3',
+      component: DicaView3
+    },  
+    {
+      path: '/dica3',
+      name: 'dica3',
+      component: DicaView3
+    },  
+    {
+      path: '/dica3',
+      name: 'dica3',
+      component: DicaView3
+    },   
+    {
+      path: '/dica3',
+      name: 'dica3',
+      component: DicaView3
+    },   
+    {
+      path: '/dica3',
+      name: 'dica3',
+      component: DicaView3
+    },  
+    {
+      path: '/dica3',
+      name: 'dica3',
+      component: DicaView3
+    },
     
     {
       path: '/about',
