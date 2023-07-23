@@ -1,4 +1,5 @@
 <template>
+    <div class="dica7">
     <p>De acordo com alguns estudiosos, a Guerra dos Cem Anos teve um impacto
 significativo na Europa Medieval. Para Duby (2009), a guerra causou uma grande destruição e
 desestabilização das estruturas políticas e sociais da época, levando a mudanças significativas
@@ -13,4 +14,16 @@ contribuíram para o fim da Idade Média e o início da Renascença, ao fomentar
 sociais que levaram a uma nova forma de pensar e agir na Europa.
 Em resumo, a Guerra dos Cem Anos teve um impacto profundo na Europa Medieval,
 influenciando mudanças significativas na política, economia e cultura da época.</p>
+
+    <img src="https://acrediteounao.com/wp-content/uploads/2019/02/guerra-dos-100-anos-e1550151782735.jpg" alt="" class="img7">
+    </div>
 </template>
+
+<style scoped>
+.img7{
+    width: 700px;
+    height: 400px;
+    display: flex;
+    border-radius: 25px;
+    }
+</style>

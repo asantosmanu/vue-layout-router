@@ -1,4 +1,5 @@
 <template>
+    <div class="dica14">
     <p>A decadência do Império Romano foi um processo complexo e multifacetado, mas
 alguns fatores podem ser apontados como os principais responsáveis pela sua queda. Segundo
 Ward-Perkins (2014), a crise econômica e o esgotamento das reservas de ouro foram
@@ -8,4 +9,16 @@ constantes invasões bárbaras contribuíram para o declínio da autoridade roma
 a corrupção e a burocracia ineficiente, também foram fatores importantes para a queda do
 Império Romano. Por fim, Gibbon (2010) argumenta que o enfraquecimento dos valores morais
 e a decadência cultural foram fundamentais para o colapso do Império .</p>
+
+    <img src="https://www.infoescola.com/wp-content/uploads/2016/06/coliseu_414359344.jpg" alt="" class="img14">
+    </div>
 </template>
+
+<style scoped>
+.img14{
+    width: 700px;
+    height: 400px;
+    display: flex;
+    border-radius: 25px;
+    }
+</style>

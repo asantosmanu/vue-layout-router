@@ -1,4 +1,5 @@
 <template>
+    <div class="dica6">
     <p>De acordo com alguns autores, o papel da Igreja Católica na Idade Média foi de
 grande importância para a organização social e política da época. Segundo Le Goff (2008), a
 Igreja desempenhou um papel fundamental na difusão da cultura clássica e na construção de
@@ -16,4 +17,16 @@ um papel importante na construção de uma identidade cultural e religiosa europ
 um dos pilares fundamentais da civilização ocidental. Em resumo, a Igreja Católica
 desempenhou um papel fundamental na Idade Média, atuando como um centro de poder político,
 social e cultural da época.</p>
+
+    <img src="https://files.cursoenemgratuito.com.br/uploads/2020/03/coroa%C3%A7%C3%A3o-de-carlos-magno-igreja-medieval.jpg" alt="" class="img6">
+    </div>
 </template>
+
+<style scoped>
+.img6{
+    width: 700px;
+    height: 400px;
+    display: flex;
+    border-radius: 25px;
+    }
+</style>

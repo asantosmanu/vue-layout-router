@@ -1,4 +1,5 @@
 <template>
+    <div class="dica5">
     <p>Segundo alguns estudiosos, a principal motivação dos europeus para a colonização
 das Américas foi a busca por riquezas e recursos naturais, como ouro, prata e especiarias, além
 do comércio de escravos e a expansão do cristianismo (SEVCENKO, 1995; BOXER, 2002;
@@ -8,4 +9,16 @@ seu poder econômico. Boxer (2002) também destaca a importância da religião n
 uma vez que a Igreja Católica incentivou a conversão dos povos nativos ao cristianismo. Laraia
 (2004) acrescenta que a exploração da mão de obra indígena e africana, por meio do tráfico de
 escravos, também foi um importante fator motivador da colonização.</p>
+
+    <img src="https://sme.goiania.go.gov.br/conexaoescola/wp-content/uploads/2022/09/Adelantado-e1662332190366.jpg" alt="" class="img5">
+    </div>
 </template>
+
+<style scoped>
+.img5{
+    width: 700px;
+    height: 400px;
+    display: flex;
+    border-radius: 25px;
+    }
+</style>
