@@ -13,7 +13,7 @@ const opc = ref ('')
         <input class="border" type="radio" v-on:keypress="ok = false" v-model="h1" value="OPCOES" /> C) A declaração de guerra da Alemanha à França
         <input class="border" type="radio" v-on:keypress="ok = false" v-model="h1" value="OPCOES" /> D) O bombardeio de Belgrado pelas forças austro-húngaras
         <input class="border" type="radio" v-on:keypress="ok = false" v-model="h1" value="OPCOES" /> E) A invasão alemã da Bélgica
-        <button @click="$router.push({name: 'dica1'})">Dica</button>
+        <button class="bot" @click="$router.push({name: 'dica1'})">Dica</button>
         <hr>
         <h2>2)Qual foi o evento que marcou o início da Revolução Francesa?</h2>
         <input class="border" type="radio" v-on:keypress="ok = false" v-model="h1" value="OPCOES" /> 
@@ -25,7 +25,7 @@ const opc = ref ('')
         <input class="border" type="radio" v-on:keypress="ok = false" v-model="h1" value="OPCOES" /> D) A convocação dos Estados Gerais
         <input class="border" type="radio" v-on:keypress="ok = false" v-model="h1" value="OPCOES" /> 
         E) A eleição da Assembleia Nacional Constituinte
-        <button @click="$router.push({name: 'dica2'})">Dica</button>
+        <button class="bot" @click="$router.push({name: 'dica2'})">Dica</button>
         <hr>
         <h2>3)Qual foi o principal conflito militar da Guerra Fria?</h2>
         <input class="border" type="radio" v-on:keypress="ok = false" v-model="h1" value="OPCOES" /> 
@@ -38,7 +38,7 @@ const opc = ref ('')
         D) A Guerra das Malvinas
         <input class="border" type="radio" v-on:keypress="ok = false" v-model="h1" value="OPCOES" /> 
         E) A Invasão do Afeganistão
-        <button @click="$router.push({name: 'dica3'})">Dica</button>
+        <button class="bot" @click="$router.push({name: 'dica3'})">Dica</button>
         <hr>
         <h2>4)Qual foi o principal objetivo dos Estados Unidos na Guerra do Vietnã?</h2>
         <input class="border" type="radio" v-on:keypress="ok = false" v-model="h1" value="OPCOES" /> 
@@ -51,7 +51,7 @@ const opc = ref ('')
         D) Estabelecer uma base militar permanente no Vietnã
         <input class="border" type="radio" v-on:keypress="ok = false" v-model="h1" value="OPCOES" /> 
         E) Proteger os interesses econômicos dos Estados Unidos na região
-        <button @click="$router.push({name: 'dica4'})">Dica</button>
+        <button class="bot" @click="$router.push({name: 'dica4'})">Dica</button>
         <hr>
         <h2>5)Qual foi a principal motivação dos europeus para a colonização das Américas?</h2>
         <input class="border" type="radio" v-on:keypress="ok = false" v-model="h1" value="OPCOES" /> 
@@ -64,7 +64,7 @@ const opc = ref ('')
         D) Expandir a religião e o mercado em busca de matérias primas, ouro e prata
         <input class="border" type="radio" v-on:keypress="ok = false" v-model="h1" value="OPCOES" /> 
         E) Encontrar novas terras para a população europeia excedente
-        <button @click="$router.push({name: 'dica5'})">Dica</button>
+        <button class="bot" @click="$router.push({name: 'dica5'})">Dica</button>
         <hr>
         <h2>6) Qual foi o papel da Igreja Católica na Idade Média?</h2>
         <input class="border" type="radio" v-on:keypress="ok = false" v-model="h1" value="OPCOES" /> 
@@ -78,7 +78,7 @@ const opc = ref ('')
         D) A Igreja desencorajou a educação e a pesquisa científica na Idade Média
         <input class="border" type="radio" v-on:keypress="ok = false" v-model="h1" value="OPCOES" /> 
         E) A Igreja foi responsável pela queda do Império Romano do Ocidente
-        <button @click="$router.push({name: 'dica6'})">Dica</button>
+        <button class="bot" @click="$router.push({name: 'dica6'})">Dica</button>
         <hr>        
         <h2>7)Qual foi o impacto da Guerra dos Cem Anos na Europa Medieval?</h2>
         <input class="border" type="radio" v-on:keypress="ok = false" v-model="h1" value="OPCOES" /> 
@@ -92,7 +92,7 @@ const opc = ref ('')
         <input class="border" type="radio" v-on:keypress="ok = false" v-model="h1" value="OPCOES" /> 
         E) A guerra foi responsável pelo surgimento de um sistema de governo
         representativo
-        <button @click="$router.push({name: 'dica7'})">Dica</button>
+        <button class="bot" @click="$router.push({name: 'dica7'})">Dica</button>
         <hr>        
         <h2>8)Qual era a principal fonte de subsistência dos maias?</h2>
         <input class="border" type="radio" v-on:keypress="ok = false" v-model="h1" value="OPCOES" /> 
@@ -105,7 +105,7 @@ const opc = ref ('')
         D) Comércio
         <input class="border" type="radio" v-on:keypress="ok = false" v-model="h1" value="OPCOES" /> 
         E) Agricultura
-        <button @click="$router.push({name: 'dica8'})">Dica</button>
+        <button class="bot" @click="$router.push({name: 'dica8'})">Dica</button>
         <hr>        
         <h2>9)Qual era o deus mais importante da religião asteca?</h2>
         <input class="border" type="radio" v-on:keypress="ok = false" v-model="h1" value="OPCOES" /> 
@@ -118,7 +118,7 @@ const opc = ref ('')
         D) Xipe Totec
         <input class="border" type="radio" v-on:keypress="ok = false" v-model="h1" value="OPCOES" /> 
         E) Tezcatlipoca
-        <button @click="$router.push({name: 'dica9'})">Dica</button>
+        <button class="bot" @click="$router.push({name: 'dica9'})">Dica</button>
         <hr>        
         <h2>10)Qual foi o imperador Inca responsável pela expansão máxima do Império Inca?</h2>
         <input class="border" type="radio" v-on:keypress="ok = false" v-model="h1" value="OPCOES" /> 
@@ -131,7 +131,7 @@ const opc = ref ('')
         D) Manco Inca
         <input class="border" type="radio" v-on:keypress="ok = false" v-model="h1" value="OPCOES" /> 
         E) Atahualpa
-        <button @click="$router.push({name: 'dica10'})">Dica</button>
+        <button class="bot" @click="$router.push({name: 'dica10'})">Dica</button>
         <hr>        
         <h2>11)Qual foi a principal causa da Revolução Russa de 1917?</h2>
         <input class="border" type="radio" v-on:keypress="ok = false" v-model="h1" value="OPCOES" /> 
@@ -144,7 +144,7 @@ const opc = ref ('')
         D) A participação russa na Primeira Guerra Mundial
         <input class="border" type="radio" v-on:keypress="ok = false" v-model="h1" value="OPCOES" /> 
         E) Todas as alternativas acima
-        <button @click="$router.push({name: 'dica11'})">Dica</button>
+        <button class="bot" @click="$router.push({name: 'dica11'})">Dica</button>
         <hr>        
         <h2>12)Qual foi a principal consequência da Revolução Russa de 1917?</h2>
         <input class="border" type="radio" v-on:keypress="ok = false" v-model="h1" value="OPCOES" /> 
@@ -158,7 +158,7 @@ const opc = ref ('')
         D) O estabelecimento da monarquia czarista
         <input class="border" type="radio" v-on:keypress="ok = false" v-model="h1" value="OPCOES" /> 
         E) Todas as alternativas anteriores estão incorretas
-        <button @click="$router.push({name: 'dica12'})">Dica</button>
+        <button class="bot" @click="$router.push({name: 'dica12'})">Dica</button>
         <hr>        
         <h2>13)Qual foi a principal característica do Renascimento?</h2>
         <input class="border" type="radio" v-on:keypress="ok = false" v-model="h1" value="OPCOES" /> 
@@ -171,7 +171,7 @@ const opc = ref ('')
         D) A difusão da religião protestante.
         <input class="border" type="radio" v-on:keypress="ok = false" v-model="h1" value="OPCOES" /> 
         E) A expansão marítima e comercial.
-        <button @click="$router.push({name: 'dica13'})">Dica</button>
+        <button class="bot" @click="$router.push({name: 'dica13'})">Dica</button>
         <hr>       
         <h2>14)Qual foi a principal causa da queda do Império Romano?</h2>
         <input class="border" type="radio" v-on:keypress="ok = false" v-model="h1" value="OPCOES" /> 
@@ -184,7 +184,7 @@ const opc = ref ('')
         D) A propagação do cristianismo.
         <input class="border" type="radio" v-on:keypress="ok = false" v-model="h1" value="OPCOES" /> 
         E) O enfraquecimento do exército romano.
-        <button @click="$router.push({name: 'dica14'})">Dica</button>
+        <button class="bot" @click="$router.push({name: 'dica14'})">Dica</button>
         <hr>        
         <h2>15)Qual das seguintes dinastias não fez parte do Império Romano?</h2>
         <input class="border" type="radio" v-on:keypress="ok = false" v-model="h1" value="OPCOES" /> 
@@ -197,7 +197,7 @@ const opc = ref ('')
         D) Dinastia Julio-Claudiana
         <input class="border" type="radio" v-on:keypress="ok = false" v-model="h1" value="OPCOES" /> 
         E) Dinastia Tang
-        <button @click="$router.push({name: 'dica15'})">Dica</button>
+        <button class="bot" @click="$router.push({name: 'dica15'})">Dica</button>
         <hr>
         <button @click="$router.push({name: 'about'})">Ir para sobre</button>
   </div>
@@ -211,6 +211,9 @@ const opc = ref ('')
   margin: 10px;
   padding: 10px;
   border: 1px solid #ccc;
+}
+.bot{
+  border-radius: 10%;
 }
 </style>
 

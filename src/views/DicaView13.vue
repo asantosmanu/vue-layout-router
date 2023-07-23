@@ -11,6 +11,8 @@ greco-romana, que influenciou as artes, a literatura, a filosofia e a ciência d
 
     <img src="https://static.todamateria.com.br/upload/re/na/renascimento-cultural-og.jpg" alt="" class="img13">
     </div>
+
+    <button class="bt" @click="$router.push({name: 'home'})">Pergunta</button>
 </template>
 
 <style scoped>
@@ -20,4 +22,8 @@ greco-romana, que influenciou as artes, a literatura, a filosofia e a ciência d
     display: flex;
     border-radius: 25px;
     }
+    .bt{
+    border-radius: 10%;
+    
+}
 </style>

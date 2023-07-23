@@ -14,6 +14,7 @@ do século XX e um exemplo das tensões e rivalidades que marcaram a Guerra Fria
 <img src="https://media.istockphoto.com/id/686359674/pt/vetorial/soviet-union-and-usa-flag-together-with-dried-soil-texture.jpg?s=612x612&w=0&k=20&c=qvU-lyvFfApr5Yzj75Xqf2G_5u6hD3NKuWfcAD4cfSY=" alt="" class="img3">
     </div>
 
+    <button class="bt" @click="$router.push({name: 'home'})">Pergunta</button>
 </template>
 
 <style scoped>
@@ -23,4 +24,9 @@ do século XX e um exemplo das tensões e rivalidades que marcaram a Guerra Fria
     display: flex;
     border-radius: 25px;
     }
+
+    .bt{
+    border-radius: 10%;
+    
+}
 </style>

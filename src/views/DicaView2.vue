@@ -15,6 +15,7 @@ pensamento político e social até os dias de hoje.</p>
     <img src="https://static.historiadomundo.com.br/2021/05/revolucao-francesa.jpg" alt="" class="img2">
     </div>
 
+    <button class="bt" @click="$router.push({name: 'home'})">Pergunta</button>
 </template>
 
 <style scoped>
@@ -24,4 +25,8 @@ pensamento político e social até os dias de hoje.</p>
     display: flex;
     border-radius: 25px;
     }
+ .bt{
+    border-radius: 10%;
+    
+}
 </style>

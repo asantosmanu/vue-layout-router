@@ -15,6 +15,8 @@ Império Inca, por meio de conquistas militares, alianças políticas e reformas
 
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/TupacamaruI.JPG/640px-TupacamaruI.JPG" alt="" class="img10">
     </div>
+
+    <button class="bt" @click="$router.push({name: 'home'})">Pergunta</button>
 </template>
 
 <style scoped>
@@ -24,4 +26,8 @@ Império Inca, por meio de conquistas militares, alianças políticas e reformas
     display: flex;
     border-radius: 25px;
     }
+    .bt{
+    border-radius: 10%;
+    
+}
 </style>

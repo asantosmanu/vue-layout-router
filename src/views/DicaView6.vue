@@ -20,6 +20,8 @@ social e cultural da época.</p>
 
     <img src="https://files.cursoenemgratuito.com.br/uploads/2020/03/coroa%C3%A7%C3%A3o-de-carlos-magno-igreja-medieval.jpg" alt="" class="img6">
     </div>
+
+    <button class="bt" @click="$router.push({name: 'home'})">Pergunta</button>
 </template>
 
 <style scoped>
@@ -29,4 +31,8 @@ social e cultural da época.</p>
     display: flex;
     border-radius: 25px;
     }
+    .bt{
+    border-radius: 10%;
+    
+}
 </style>

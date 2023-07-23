@@ -12,6 +12,8 @@ desenvolvimento do socialismo e do comunismo em outras partes do mundo.</p>
 
     <img src="https://static.todamateria.com.br/upload/re/vo/revolucao-russa-og.jpg" alt="" class="img12">
     </div>
+
+    <button class="bt" @click="$router.push({name: 'home'})">Pergunta</button>
 </template>
 
 <style scoped>
@@ -21,4 +23,8 @@ desenvolvimento do socialismo e do comunismo em outras partes do mundo.</p>
     display: flex;
     border-radius: 25px;
     }
+    .bt{
+    border-radius: 10%;
+    
+}
 </style>

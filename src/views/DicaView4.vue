@@ -12,6 +12,8 @@ reunificado sob o governo comunista.</p>
 
         <img src="https://imgsapp.revistaencontro.com.br/app/noticia_152466458717/2016/02/11/156194/20160211111908770423e.jpg" alt="" class="img4">
     </div>
+
+    <button class="bt" @click="$router.push({name: 'home'})">Pergunta</button>
 </template>
 
 <style scoped>
@@ -21,4 +23,8 @@ reunificado sob o governo comunista.</p>
     display: flex;
     border-radius: 25px;
     }
+    .bt{
+    border-radius: 10%;
+    
+}
 </style>

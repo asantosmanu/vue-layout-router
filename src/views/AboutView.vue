@@ -1,5 +1,5 @@
 <template>
-  <h1>ENTRADA</h1>
+  <h1>QUIZ DE HISTÓRIA!</h1>
   <P>Bem-vindo ao nosso empolgante Quiz, onde desafiamos seus conhecimentos em história! Se você é apaixonado por curiosidades, um mestre da história ou apenas busca diversão e aprendizado, este é o lugar certo para você!
 
 Prepare-se para testar suas habilidades, responder perguntas intrigantes e descobrir o quanto você realmente sabe sobre os mais variados assuntos envolvendo história, estamos prontos para desafiá-lo em todos os níveis!
