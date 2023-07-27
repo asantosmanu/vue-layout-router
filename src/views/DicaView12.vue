@@ -13,7 +13,7 @@ desenvolvimento do socialismo e do comunismo em outras partes do mundo.</p>
     <img src="https://static.todamateria.com.br/upload/re/vo/revolucao-russa-og.jpg" alt="" class="img12">
     </div>
 
-    <button class="bt" @click="$router.push({name: 'home'})">Pergunta</button>
+    <button class="bt" @click="$router.push({name: 'perguntas'})">Pergunta</button>
 </template>
 
 <style scoped>

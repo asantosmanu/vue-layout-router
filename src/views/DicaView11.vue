@@ -14,7 +14,7 @@ czarista também foi uma questão relevante naquele momento histórico.</p>
     <img src="https://oestadodaarte.com.br/wp-content/uploads/2017/11/Poster.jpg?w=640" alt="" class="img11">
     </div>
 
-    <button class="bt" @click="$router.push({name: 'home'})">Pergunta</button>
+    <button class="bt" @click="$router.push({name: 'perguntas'})">Pergunta</button>
 </template>
 
 <style scoped>

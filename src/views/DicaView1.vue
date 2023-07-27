@@ -11,7 +11,7 @@ posteriormente, à entrada de outras potências na guerra (MARTINS, 2006).</p>
 
     <img src="https://media.vaticannews.va/media/content/dam-archive/vaticannews/multimedia/2018/11/o3/AdobeStock_66971101aem.jpg/_jcr_content/renditions/cq5dam.thumbnail.cropped.1500.844.jpeg" alt="" class="img1">
 
-    <button class="bt" @click="$router.push({name: 'home'})">Pergunta</button>
+    <button class="bt" @click="$router.push({name: 'perguntas'})">Pergunta</button>
 </div>
 </template>
 

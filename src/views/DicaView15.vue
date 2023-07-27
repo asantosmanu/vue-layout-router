@@ -12,7 +12,7 @@ desenvolvimento da porcelana, da impressão em bloco e da pólvora.</p>
     <img src="https://i.pinimg.com/1200x/2c/b6/29/2cb6298ab56b1cb873c3c025d65c8485.jpg" alt="" class="img15">
     </div>
 
-    <button class="bt" @click="$router.push({name: 'home'})">Pergunta</button>
+    <button class="bt" @click="$router.push({name: 'perguntas'})">Pergunta</button>
 </template>
 
 

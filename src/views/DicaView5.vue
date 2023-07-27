@@ -13,7 +13,7 @@ escravos, também foi um importante fator motivador da colonização.</p>
     <img src="https://sme.goiania.go.gov.br/conexaoescola/wp-content/uploads/2022/09/Adelantado-e1662332190366.jpg" alt="" class="img5">
     </div>
 
-    <button class="bt" @click="$router.push({name: 'home'})">Pergunta</button>
+    <button class="bt" @click="$router.push({name: 'perguntas'})">Pergunta</button>
 </template>
 
 <style scoped>

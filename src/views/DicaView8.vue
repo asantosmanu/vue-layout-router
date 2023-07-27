@@ -19,7 +19,7 @@ produzir uma grande variedade de alimentos e garantir sua sobrevivência em um a
     <img src="https://static.todamateria.com.br/upload/pi/nt/pinturamaiaemchichenitzamexico-cke.jpg?auto_optimize=low" alt="" class="img8">
     </div>
 
-    <button class="bt" @click="$router.push({name: 'home'})">Pergunta</button>
+    <button class="bt" @click="$router.push({name: 'perguntas'})">Pergunta</button>
 </template>
 
 <style scoped>

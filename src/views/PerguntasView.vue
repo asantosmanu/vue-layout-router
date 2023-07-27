@@ -5,6 +5,7 @@ const opc = ref ('')
 </script>
 
 <template>
+<div class="container">
   <h1>Perguntas</h1>
   <div class="opcao">
      <h2>1)Qual foi o evento que desencadeou o início da Primeira Guerra Mundial?</h2>
@@ -199,8 +200,9 @@ const opc = ref ('')
         E) Dinastia Tang
         <button class="bot" @click="$router.push({name: 'dica15'})">Dica</button>
         <hr>
-        <button @click="$router.push({name: 'about'})">Ir para sobre</button>
+        <button @click="$router.push({name: 'entrada'})">Ir para entarada</button>
   </div>
+</div>
 </template>
 
 <style scoped>
@@ -215,5 +217,13 @@ const opc = ref ('')
 .bot{
   border-radius: 10%;
 }
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
 </style>
 

@@ -1,4 +1,5 @@
 <template>
+  <div class="container">
   <h1>QUIZ DE HISTÓRIA!</h1>
   <P>Bem-vindo ao nosso empolgante Quiz, onde desafiamos seus conhecimentos em história! Se você é apaixonado por curiosidades, um mestre da história ou apenas busca diversão e aprendizado, este é o lugar certo para você!
 
@@ -7,7 +8,19 @@ Prepare-se para testar suas habilidades, responder perguntas intrigantes e desco
 Não importa se você é um novato ou um especialista em trivia, nosso Quiz é projetado para ser uma experiência divertida e educativa para todos. dirvirta-se, supere seus recordes e desafie seus amigos para ver quem possui o conhecimento mais abrangente.
 
 Então, ajuste seus óculos, ligue o cérebro e mergulhe nesta jornada intelectual. Vamos começar o Quiz e descobrir quão bem você realmente conhece a história! Boa sorte!</P>
-  <button @click="$router.push({name: 'home'})">Ir para o quiz</button>
+  <button @click="$router.push({name: 'perguntas'})">Ir para o quiz</button>
+</div>
 </template>
 
-<style></style>
+<style scoped>
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+</style>
+
+

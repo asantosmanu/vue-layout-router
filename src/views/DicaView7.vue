@@ -18,7 +18,7 @@ influenciando mudanças significativas na política, economia e cultura da époc
     <img src="https://acrediteounao.com/wp-content/uploads/2019/02/guerra-dos-100-anos-e1550151782735.jpg" alt="" class="img7">
     </div>
 
-    <button class="bt" @click="$router.push({name: 'home'})">Pergunta</button>
+    <button class="bt" @click="$router.push({name: 'perguntas'})">Pergunta</button>
 </template>
 
 <style scoped>

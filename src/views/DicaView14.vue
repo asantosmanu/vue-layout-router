@@ -13,7 +13,7 @@ e a decadência cultural foram fundamentais para o colapso do Império .</p>
     <img src="https://www.infoescola.com/wp-content/uploads/2016/06/coliseu_414359344.jpg" alt="" class="img14">
     </div>
 
-    <button class="bt" @click="$router.push({name: 'home'})">Pergunta</button>
+    <button class="bt" @click="$router.push({name: 'perguntas'})">Pergunta</button>
 </template>
 
 <style scoped>

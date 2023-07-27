@@ -16,7 +16,7 @@ venerado em toda a Mesoamérica.</p>
     <img src="https://s1.static.brasilescola.uol.com.br/img/2018/11/deuses-astecas.jpg" alt="" class="img9">
     </div>
 
-    <button class="bt" @click="$router.push({name: 'home'})">Pergunta</button>
+    <button class="bt" @click="$router.push({name: 'perguntas'})">Pergunta</button>
 </template>
 
 <style scoped>

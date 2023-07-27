@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
-import AboutView from '../views/AboutView.vue'
+import EntradaView from '../views/EntradaView.vue'
+import PerguntasView from '../views/PerguntasView.vue'
 import DicaView1 from '../views/DicaView1.vue'
 import DicaView2 from '../views/DicaView2.vue'
 import DicaView3 from '../views/DicaView3.vue'
@@ -23,8 +23,8 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: HomeView
+      name: 'entrada',
+      component: EntradaView
     },
     {
       path: '/dica1',
@@ -103,9 +103,9 @@ const router = createRouter({
     },
     
     {
-      path: '/about',
-      name: 'about',
-      component: AboutView
+      path: '/perguntas',
+      name: 'perguntas',
+      component: PerguntasView
     }
   ]
 })

@@ -13,7 +13,7 @@ reunificado sob o governo comunista.</p>
         <img src="https://imgsapp.revistaencontro.com.br/app/noticia_152466458717/2016/02/11/156194/20160211111908770423e.jpg" alt="" class="img4">
     </div>
 
-    <button class="bt" @click="$router.push({name: 'home'})">Pergunta</button>
+    <button class="bt" @click="$router.push({name: 'perguntas'})">Pergunta</button>
 </template>
 
 <style scoped>
