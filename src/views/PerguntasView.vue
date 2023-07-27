@@ -1,7 +1,15 @@
 <script setup>
 import { ref } from 'vue'
 
+const ok = ref(true)
 const opc = ref ('')
+
+if (ok === "true") {
+  alert ("SUA RESPOSTA ESTÁ CORRETA!")
+}
+else {
+  alert  ("SUA RESPOSTA ESTÁ INCORRETA")
+}
 </script>
 
 <template>
@@ -9,12 +17,13 @@ const opc = ref ('')
   <h1>Perguntas</h1>
   <div class="opcao">
      <h2>1)Qual foi o evento que desencadeou o início da Primeira Guerra Mundial?</h2>
-        <input class="border" type="radio" v-on:keypress="ok = false" v-model="h1" value="OPCOES" /> A) O assassinato do arquiduque Franz Ferdinand da Áustria em Sarajevo
+        <input class="border" type="radio" v-on:keypress="ok = true" v-model="h1" value="OPCOES" /> A) O assassinato do arquiduque Franz Ferdinand da Áustria em Sarajevo
         <input class="border" type="radio" v-on:keypress="ok = false" v-model="h1" value="OPCOES" /> B) A entrada dos Estados Unidos na guerra
         <input class="border" type="radio" v-on:keypress="ok = false" v-model="h1" value="OPCOES" /> C) A declaração de guerra da Alemanha à França
         <input class="border" type="radio" v-on:keypress="ok = false" v-model="h1" value="OPCOES" /> D) O bombardeio de Belgrado pelas forças austro-húngaras
         <input class="border" type="radio" v-on:keypress="ok = false" v-model="h1" value="OPCOES" /> E) A invasão alemã da Bélgica
         <button class="bot" @click="$router.push({name: 'dica1'})">Dica</button>
+        <button class="resposta" @click="alert.push ({resposta})">Responder</button>
         <hr>
         <h2>2)Qual foi o evento que marcou o início da Revolução Francesa?</h2>
         <input class="border" type="radio" v-on:keypress="ok = false" v-model="h1" value="OPCOES" /> 
